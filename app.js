@@ -11,5 +11,5 @@ app.get("/about", function(req, res) {
 	res.render("about");
 });
 
-//app.listen(process.env.PORT, process.env.IP);
-app.listen(3000, process.env.IP);
+app.listen(process.env.PORT, process.env.IP);
+//app.listen(3000, process.env.IP);
